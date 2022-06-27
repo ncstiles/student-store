@@ -1,0 +1,12 @@
+.not-found-text{
+    margin-top: 100px;
+    margin-left: 400px;
+    color: #B7A196;
+    font-size: 30px;
+    letter-spacing: normal;
+}
+
+.product-grid .not-found-text{
+    text-align: center;
+    margin: 20px;
+}
