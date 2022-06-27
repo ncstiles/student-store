@@ -1,0 +1,55 @@
+.checkout-form {
+    text-align: center;
+}
+
+.checkout-info {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-input-cols {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.checkout-form-input {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.checkout-icon {
+    transform: scale(1.8);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.name, .email, .checkout-button {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.checkout-button {
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+}
+
+.success {
+    color: rgb(56, 72, 56);
+}
+
+.error {
+    color: rgb(146, 81, 81);
+}
+
+.order-status {
+    margin: 0px 10px 0px 10px;
+}
+
+.order-status span {
+    margin-bottom: 300px;
+}
