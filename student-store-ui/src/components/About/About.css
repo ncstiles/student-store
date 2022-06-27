@@ -1,0 +1,16 @@
+.about-wrapper {
+    border-top: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.about-wrapper > .text {
+    margin: 50px 20px;
+}
+
+.about-wrapper > .img-container {
+    width: 200px;
+    height: 100%;
+    background-size: cover; 
+    background-position: center;
+}
