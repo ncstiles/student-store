@@ -1,0 +1,64 @@
+.product-card {
+    text-align: center;
+}
+
+/* layout changes based on where product-card is viewed (either product-grid or product-card) */
+.product-grid .product-card {
+    background-color: #918B76;
+    width: 250px;
+    border: solid 2px rgb(206, 204, 204);
+    align-items: center;
+    border-radius: 5px;
+}
+
+.media {
+    text-align: center;
+}
+
+.product-img {
+    border-bottom: 2px solid white;
+    height: 250px;
+    width: 250px;
+}
+
+.product-view .product-img {
+    height: 500px;
+    width: auto;
+    border: none;
+}
+
+.product-grid .single-product-info {
+    display: grid;
+    grid-template-columns: 1fr 70px;
+}
+
+/* left column contains product name/price, right column contains product quantity/increment/decrement */
+.product-grid .main-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-info h4{
+    margin: 5px;
+}
+
+.quantity-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.qty-span {
+    background:  #CDB888;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.button-wrapper {
+    margin-top: 5px;
+}
+
+.add, .remove {
+    border-radius: 5px;
+    border: 0px;
+}
