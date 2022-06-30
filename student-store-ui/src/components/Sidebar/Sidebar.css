@@ -1,35 +1,36 @@
 .sidebar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 100vh;
-    border-right: 2px solid white;
-    text-align: center;
-    overflow-x: hidden;
-    overflow-y: auto;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  border-right: 2px solid white;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 3;
 }
 
 .icon {
-    transform: scale(1.8);
+  transform: scale(1.8);
 }
 
 .closed {
-    width: 60px;
-    background-color: #98937A;
+  width: 60px;
+  background-color: #98937a;
 }
 
 .open {
-    width: 375px;
-    background-color: #918B76;
+  width: 375px;
+  background-color: #918b76;
 }
 
 .toggle-button {
-    border-radius: 5px;
-    margin-top: 80px;
-    border: 0px;
+  border-radius: 5px;
+  margin-top: 80px;
+  border: 0px;
 }
 
 .cart-and-form {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
