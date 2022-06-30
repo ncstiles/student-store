@@ -1,76 +1,77 @@
 .shopping-cart {
-    text-align: center;
-    margin: 5px;
-    margin-top: 100px;
-    width: 365px;
+  text-align: center;
+  margin: 5px;
+  margin-top: 100px;
+  width: 365px;
 }
 
 .cart-icon {
-    transform: scale(1.8);
-    margin-top: 20px;
-    margin-left: 20px;
+  transform: scale(1.8);
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .cart-info {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .order-table {
-    margin-bottom: 20px;
-    width: 365px;
+  margin-bottom: 20px;
+  width: 365px;
 }
 
 .order-four-cols {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .table-header {
-    border: 1px solid white;
-    background-color: #626C66;
+  border: 1px solid white;
+  background-color: #626c66;
 }
 
 .item-and-quantity {
-    padding: 15px 2px;
-    border: 1px solid white;
-    border-top: 0px;
+  padding: 15px 2px;
+  border: 1px solid white;
+  border-top: 0px;
 }
 
 .shopping-cols {
-    display: grid;
-    grid-template-columns: 100px auto;
-    justify-content: space-between;
+  display: grid;
+  grid-template-columns: 100px auto;
+  justify-content: space-between;
 }
 
 .shopping-cart .subtotal-three-rows {
-    display: block;
+  display: block;
 }
 
-.subtotal-three-rows h4{
-    margin: 5px;
+.subtotal-three-rows h4 {
+  margin: 5px;
 }
 
 .category {
-    justify-self: start;
-    margin-left: 50px;
+  justify-self: start;
+  margin-left: 50px;
 }
 
 .price {
-    justify-self: end;
+  justify-self: end;
 }
 
 .subtotal {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
-.sales-tax, .total {
-    border: 1px solid white;
-    border-top: 0;
+.sales-tax,
+.total {
+  border: 1px solid white;
+  border-top: 0;
 }
 
 .total-price {
-    background-color: #7A7C6E;
-    border: 1px solid white;
-    border-top: 0;
+  background-color: #7a7c6e;
+  border: 1px solid white;
+  border-top: 0;
 }

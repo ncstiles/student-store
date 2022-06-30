@@ -145,5 +145,381 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": 0,
+      "name": "Nicole Stiles",
+      "email": "ncstiles17@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 1
+        }
+      ],
+      "total": 1.076625,
+      "createdAt": "6/29/2022, 4:12:22 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Nicole Stiles.",
+          "1 Rice Krispies purchased at $0.99 each, totaling to $0.99.",
+          "Subtotal: $0.99",
+          "Total after taxes/fees: $1.08"
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "Bob Ross",
+      "email": "nstiles@mit.edu",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 3,
+          "quantity": 3
+        }
+      ],
+      "total": 14.648625,
+      "createdAt": "6/29/2022, 4:12:37 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Bob Ross.",
+          "3 Flamin Hot Cheetos purchased at $1.50 each, totaling to $4.50.",
+          "3 Cinnamon Rolls purchased at $2.99 each, totaling to $8.97.",
+          "Subtotal: $13.47",
+          "Total after taxes/fees: $14.65"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Harper Lee",
+      "email": "harper.lee@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 4,
+          "quantity": 5
+        }
+      ],
+      "total": 19.825125,
+      "createdAt": "6/29/2022, 4:12:56 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Harper Lee.",
+          "2 Rice Krispies purchased at $0.99 each, totaling to $1.98.",
+          "5 Coconut Water purchased at $3.25 each, totaling to $16.25.",
+          "Subtotal: $18.23",
+          "Total after taxes/fees: $19.83"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "email": "bob@gmail.com",
+      "order": [
+        {
+          "itemId": 15,
+          "quantity": 3
+        }
+      ],
+      "total": 65.18475,
+      "createdAt": "6/29/2022, 5:09:22 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Bob.",
+          "3 Mouse from 1998 purchased at $19.98 each, totaling to $59.94.",
+          "Subtotal: $59.94",
+          "Total after taxes/fees: $65.18"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Happy Penguin",
+      "email": "happy@hotmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 4
+        },
+        {
+          "itemId": 2,
+          "quantity": 5
+        },
+        {
+          "itemId": 3,
+          "quantity": 4
+        },
+        {
+          "itemId": 5,
+          "quantity": 3
+        }
+      ],
+      "total": 49.937999999999995,
+      "createdAt": "6/29/2022, 6:13:58 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Happy Penguin.",
+          "4 Rice Krispies purchased at $0.99 each, totaling to $3.96.",
+          "5 Flamin Hot Cheetos purchased at $1.50 each, totaling to $7.50.",
+          "4 Cinnamon Rolls purchased at $2.99 each, totaling to $11.96.",
+          "3 Fruit Medley purchased at $7.50 each, totaling to $22.50.",
+          "Subtotal: $45.92",
+          "Total after taxes/fees: $49.94"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Jinmei",
+      "email": "bob@gmail.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 8.6565,
+      "createdAt": "6/29/2022, 8:24:55 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Jinmei.",
+          "2 Rice Krispies purchased at $0.99 each, totaling to $1.98.",
+          "2 Cinnamon Rolls purchased at $2.99 each, totaling to $5.98.",
+          "Subtotal: $7.960000000000001",
+          "Total after taxes/fees: $8.66"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Bob",
+      "email": "ncstiles@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        },
+        {
+          "itemId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 6.492374999999999,
+      "createdAt": "6/29/2022, 8:25:46 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Bob.",
+          "3 Rice Krispies purchased at $0.99 each, totaling to $2.97.",
+          "2 Flamin Hot Cheetos purchased at $1.50 each, totaling to $3.00.",
+          "Subtotal: $5.97",
+          "Total after taxes/fees: $6.49"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "George Jeep",
+      "email": "happy@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        }
+      ],
+      "total": 2.15325,
+      "createdAt": "6/29/2022, 8:51:14 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for George Jeep.",
+          "2 Rice Krispies purchased at $0.99 each, totaling to $1.98.",
+          "Subtotal: $1.98",
+          "Total after taxes/fees: $2.15"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Cruella ",
+      "email": "cruella@bad.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        }
+      ],
+      "total": 3.2298749999999994,
+      "createdAt": "6/29/2022, 9:16:21 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Cruella .",
+          "3 Rice Krispies purchased at $0.99 each, totaling to $2.97.",
+          "Subtotal: $2.97",
+          "Total after taxes/fees: $3.23"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lucky Day",
+      "email": "lucky@woohoo.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 3,
+          "quantity": 3
+        }
+      ],
+      "total": 14.648625,
+      "createdAt": "6/29/2022, 9:21:19 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Lucky Day.",
+          "3 Flamin Hot Cheetos purchased at $1.50 each, totaling to $4.50.",
+          "3 Cinnamon Rolls purchased at $2.99 each, totaling to $8.97.",
+          "Subtotal: $13.47",
+          "Total after taxes/fees: $14.65"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Krispie Krackle",
+      "email": "krispy@crunchy.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 3
+        }
+      ],
+      "total": 3.2298749999999994,
+      "createdAt": "6/29/2022, 10:45:55 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Krispie Krackle.",
+          "3 Rice Krispies purchased at $0.99 each, totaling to $2.97.",
+          "Subtotal: $2.97",
+          "Total after taxes/fees: $3.23"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Trial Krisp",
+      "email": "ncstiles@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        }
+      ],
+      "total": 2.15325,
+      "createdAt": "6/30/2022, 12:39:07 AM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Trial Krisp.",
+          "2 Rice Krispies purchased at $0.99 each, totaling to $1.98.",
+          "Subtotal: $1.98",
+          "Total after taxes/fees: $2.15"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Trial Error",
+      "email": "nstiles@mit.edu",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 4
+        },
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 3,
+          "quantity": 3
+        }
+      ],
+      "total": 18.955125,
+      "createdAt": "6/30/2022, 12:41:31 AM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Trial Error.",
+          "4 Rice Krispies purchased at $0.99 each, totaling to $3.96.",
+          "3 Flamin Hot Cheetos purchased at $1.50 each, totaling to $4.50.",
+          "3 Cinnamon Rolls purchased at $2.99 each, totaling to $8.97.",
+          "Subtotal: $17.43",
+          "Total after taxes/fees: $18.96"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "Hello World",
+      "email": "ncstiles17@gmail.com",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 4
+        },
+        {
+          "itemId": 4,
+          "quantity": 4
+        }
+      ],
+      "total": 20.662499999999998,
+      "createdAt": "6/30/2022, 12:41:54 AM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Hello World.",
+          "4 Flamin Hot Cheetos purchased at $1.50 each, totaling to $6.00.",
+          "4 Coconut Water purchased at $3.25 each, totaling to $13.00.",
+          "Subtotal: $19.00",
+          "Total after taxes/fees: $20.66"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "Abby Babby",
+      "email": "ncstiles@fb.com",
+      "order": [
+        {
+          "itemId": 1,
+          "quantity": 2
+        },
+        {
+          "itemId": 13,
+          "quantity": 2
+        }
+      ],
+      "total": 154.40324999999999,
+      "createdAt": "6/30/2022, 1:17:29 AM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Abby Babby.",
+          "2 Rice Krispies purchased at $0.99 each, totaling to $1.98.",
+          "2 Copper Bracelet purchased at $70.00 each, totaling to $140.00.",
+          "Subtotal: $141.98",
+          "Total after taxes/fees: $154.40"
+        ]
+      }
+    }
+  ]
 }
