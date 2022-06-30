@@ -1,0 +1,77 @@
+.order-wrapper {
+  color: white;
+  line-height: 1.2;
+}
+
+.order-main-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* format the "card" containing order information differently 
+depending on whether we're in grid view (order-grid) or single card view (order-detail) */
+.order-card {
+  display: grid;
+  background-color: #918b76;
+  border: solid 2px rgb(206, 204, 204);
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.order-grid .order-card {
+  display: grid;
+  width: 275px;
+  font-size: 20px;
+  padding: 15px 10px 20px 10px;
+}
+
+.order-detail .order-card {
+  margin-top: 300px;
+  margin-bottom: 140px;
+  font-size: 30px;
+  display: grid;
+  margin-top: 110px;
+  margin: 50px;
+  padding: 10px;
+}
+
+.order-total {
+  background-color: #e1ca96;
+  border-radius: 5px;
+}
+
+.order-grid .order-total {
+  padding: 0px 5px;
+}
+
+.order-detail .order-total {
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+.orderer-name,
+.order-total {
+  font-weight: bold;
+}
+
+.order-detail .orderer-name,
+.order-detail .order-total {
+  font-size: 60px;
+  text-align: center;
+}
+
+.receipt {
+  background-color: #9f9a7e;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px 5px 20px 5px;
+}
+
+.receipt-label {
+  font-weight: bold;
+}
+.receipt-content {
+  margin-left: 25px;
+}

@@ -1,0 +1,5 @@
+.order-detail {
+  display: grid;
+  margin: 100px 400px 40px 400px;
+  height: 70vh;
+}
