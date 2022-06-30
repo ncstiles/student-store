@@ -1,7 +1,6 @@
 import * as React from "react"
 import "./ProductCard.css"
 import { Link } from "react-router-dom"
-import { round } from "../App/App"
 import AddBoxRoundedIcon from '@mui/icons-material/AddBoxRounded';
 import IndeterminateCheckBoxRoundedIcon from '@mui/icons-material/IndeterminateCheckBoxRounded';
 
@@ -17,7 +16,7 @@ export default function ProductCard({product, productId, quantity, handleAddItem
                 {/* all text info about a product */}
                 <div className="main-info">
                     <h4 className="product-name">{product.name}</h4>
-                    <h4 className="product-price">${round(product.price)}</h4> 
+                    <h4 className="product-price">${product.price?.toFixed(2)}</h4> 
                     <div className='product-description'>
                         {/* description only displayed in the ProductDetail view, not the ProductGrid view */}
                         { showDescription ? <p className="product-description">{product.description}</p> : <></> }

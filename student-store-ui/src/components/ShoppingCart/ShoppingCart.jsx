@@ -1,6 +1,5 @@
 import * as React from "react"
 import "./ShoppingCart.css"
-import { round } from "../App/App"
 import LocalGroceryStoreRoundedIcon from '@mui/icons-material/LocalGroceryStoreRounded';
 
 export default function ShoppingCart({isOpen, products, shoppingCart}) {
@@ -71,8 +70,8 @@ export default function ShoppingCart({isOpen, products, shoppingCart}) {
                             <>
                                 <span className='cart-product-name'>{idToName(cartItem.itemId)}</span>
                                 <span className='cart-product-quantity'>{cartItem.quantity}</span>
-                                <span className='cart-product-unit-price'>${round(calcUnitPrice(cartItem))}</span>
-                                <span className='cart-product-cost'>${round(cartItem.quantity*calcUnitPrice(cartItem))}</span>
+                                <span className='cart-product-unit-price'>${calcUnitPrice(cartItem)?.toFixed(2)}</span>
+                                <span className='cart-product-cost'>${(cartItem.quantity*calcUnitPrice(cartItem)).toFixed(2)}</span>
                             </>
                         </div>
                     })
@@ -82,15 +81,15 @@ export default function ShoppingCart({isOpen, products, shoppingCart}) {
             <div className="subtotal-three-rows">
                 <div className="subtotal shopping-cols">
                     <h4 className="category">Subtotal</h4>
-                    <h4 className="price">${round(calcTotalCost(shoppingCart))}</h4>
+                    <h4 className="price">${calcTotalCost(shoppingCart).toFixed(2)}</h4>
                 </div>
                 <div className="sales-tax shopping-cols">
                     <h4 className="category">Sales Tax</h4>
-                    <h4 className="price">${round(total*taxRate)}</h4>
+                    <h4 className="price">${total*taxRate.toFixed(2)}</h4>
                 </div>
                 <div className="total-price shopping-cols">
                     <h4 className="category">Total</h4>
-                    <h4 className="price">${round(total*(1+taxRate))}</h4>
+                    <h4 className="price">${(total*(1+taxRate)).toFixed(2)}</h4>
                 </div>
             </div>  
         </div>
